@@ -1,0 +1,1 @@
+console.log("This is the seed file for adding permissions to the database");

@@ -1,0 +1,21 @@
+PORT=3001
+DB_URL=localhost
+DB_USER=root
+DB_NAME=<your-db-name>
+DB_PASS=<your-db-password>
+DB_ALTER=false
+DB_FORCE=true
+SALT_ROUNDS=9
+JWT_SECRET=ecom_jwt_secret
+JWT_EXPIRY=1h
+NODE_ENV=development
+
+OTP_TTL = 300
+
+AWS_ACCESS_KEY_ID=<your-access-key-id>
+AWS_SECRET_ACCESS_KEY=<your-secret-access-key>
+AWS_REGION=<your-aws-region>
+AWS_S3_BUCKET=<your-s3-bucket>
+
+RESEND_API_KEY=sample
+FROM_EMAIL=developers@khaitan.com

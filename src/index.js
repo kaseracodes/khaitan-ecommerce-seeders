@@ -1,0 +1,1 @@
+console.log("Initial project setup for khaitan-ecommerce-seeder");
