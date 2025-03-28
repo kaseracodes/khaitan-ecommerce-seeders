@@ -44,7 +44,7 @@ async function seedRoles() {
                     defaults: { roleId, permissionId }
                 });
                 if (!created){
-                    console.log(`⚠️ Permission ID: ${permissionId} already exists in: ${role.name}`);
+                    console.log(`⚠️ Permission ID: ${permissionId} already exists in: ${roleName}`);
                 }
             }
 
