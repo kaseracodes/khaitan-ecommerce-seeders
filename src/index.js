@@ -1,14 +1,16 @@
 const seedPermissions = require("./seeders/seed_permissions");
-const seed_roles = require("./seeders/seed_roles");
-const seed_users = require("./seeders/seed_users");
-const seed_colors = require("./seeders/seed_colors");
+const seedRoles = require("./seeders/seed_roles");
+const seedUsers = require("./seeders/seed_users");
+const seedColors = require("./seeders/seed_colors");
+const seedCategoriesAndAttributes = require("./seeders/seed_categories_and_attributes");
 
 async function startApp() {
     try {
         await seedPermissions();
-        await seed_roles();
-        await seed_users();
-        await seed_colors();
+        await seedRoles();
+        await seedUsers();
+        await seedColors();
+        await seedCategoriesAndAttributes();
 
         console.log("🚀 Seeding process completed.");
         process.exit();
