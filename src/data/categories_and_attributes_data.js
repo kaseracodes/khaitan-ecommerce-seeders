@@ -1,46 +1,15 @@
 module.exports = [
     {
-        name: "Lights",
-        description: "Lighting solutions for homes and offices",
-        attributes: [
-            { name: "Brand", dataType: "STRING", unit: "" },
-            { name: "Power", dataType: "NUMBER", unit: "Watt" },
-            { name: "Luminous Flux", dataType: "NUMBER", unit: "Lumens" },
-            { name: "Color Temperature", dataType: "NUMBER", unit: "Kelvin" },
-            { name: "Warranty", dataType: "NUMBER", unit: "Years" }
+        description : "Experience comfort with Khaitan's ceiling fans. Our range includes modern, sleek, and traditional designs, ensuring a perfect match for your home. Khaitan fans are energy-efficient, durable, and provide powerful airflow. Discover our economy range, offering high performance at exceptional value.",
+        name: "Ceiling Fan",
+        attributes : [
+            { categoryId: 1, name: "Blade Sweep", dataType: "Number", unit: "MM",},
+            { categoryId: 1, name: "Number of Blades", dataType: "Number", unit: "Blades",},
+            { categoryId: 1, name: "Power Requirement", dataType: "Number", unit: "Volt",},
+            { categoryId: 1, name: "Power Consumption", dataType: "Number", unit: "Watt",},
+            { categoryId: 1, name: "Speed", dataType: "Number", unit: "RPM",},
+            { categoryId: 1, name: "Air Flow Capacity", dataType: "Number", unit: "CMM"},
+            { categoryId: 1, name: "Weight", dataType: "Number", unit: "Kg",},
         ]
     },
-    {
-        name: "Fans",
-        description: "Ceiling, table, and pedestal fans",
-        attributes: [
-            { name: "Brand", dataType: "STRING", unit: "" },
-            { name: "Blade Size", dataType: "NUMBER", unit: "Inches" },
-            { name: "Speed", dataType: "NUMBER", unit: "RPM" },
-            { name: "Power", dataType: "NUMBER", unit: "Watt" },
-            { name: "Warranty", dataType: "NUMBER", unit: "Years" }
-        ]
-    },
-    {
-        name: "Geysers",
-        description: "Water heating appliances",
-        attributes: [
-            { name: "Brand", dataType: "STRING", unit: "" },
-            { name: "Capacity", dataType: "NUMBER", unit: "Liters" },
-            { name: "Power", dataType: "NUMBER", unit: "Watt" },
-            { name: "Heating Element", dataType: "STRING", unit: "" },
-            { name: "Warranty", dataType: "NUMBER", unit: "Years" }
-        ]
-    },
-    {
-        name: "Pumps",
-        description: "Water pumps for domestic and industrial use",
-        attributes: [
-            { name: "Brand", dataType: "STRING", unit: "" },
-            { name: "Power", dataType: "NUMBER", unit: "Watt" },
-            { name: "Flow Rate", dataType: "NUMBER", unit: "Liters per minute" },
-            { name: "Head Range", dataType: "NUMBER", unit: "Meters" },
-            { name: "Warranty", dataType: "NUMBER", unit: "Years" }
-        ]
-    }
-];
+]
